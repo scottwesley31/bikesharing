@@ -26,9 +26,12 @@ This heatmap splits up the previous visualization by gender. The same trends des
 This heatmap splits up the trip quantities by weekday in a similar fashion to the previous two visualizations but further splits this data up by usertype (customer vs subscriber) instead of by hour. This provides some insight into the differences between customers and subscribers. It appears that the majority of trips are made by male subscribers, followed by female subscribers, unknown customers, male customers, and female customers. There does not appear to be any or much data involving subscribers of the unknown gender. This might indicate that users who do not subscribe to the service are less likely to report a gender, while subscribers do. Overall most trips are made by subscribers rather than customers.
 
 ### August Peak Hours
+This horizontal bar chart compares the number of trips for ever hour of the day (12 AM - 11 PM). This graph confirms the data seen in the heat map and verifies peak hours regardless of weekday (8 AM - 9 AM and 5 PM - 6 PM).
 
 ### Top Starting Locations
+This map visualization shows the most populated areas of NYC associated with Citibike trips. Some of the darkest markers are approximately in the Upper East Side, Upper West Side, and Tribeca/Soho. There are less trips that occur near the Brooklyn bridge and even less that occur in regions across the East River.
 
 ### Top Ending Locations
+This map shows the stopping locations of all the Citibike trips. The regions that most bike trips occurred in the previous map are quite similar to those of the stopping locations. This further confirms that the majority of trips are short in duration (and subsequently length).
 
 ## Summary
