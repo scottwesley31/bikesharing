@@ -16,9 +16,14 @@ This visualization splits the trip duration data into 24 sections (each represen
 ### Checkout Times by Gender
 This graph is set up in the same manner as the previous graph but splits the data up by gender (female, male, and unknown). It is clear from this graph that the majority of the bikes are checked out for a trip length of 45 minutes or less by males. This is followed by females and then by unknown. After 45 minutes, it is indistinguishable between these gender groups.
 
+### Trips by Weekday per Hour
+This next visualization depicts the number of Citibike trips that happened at each hour of the day (12 AM - 11 PM) and splits this up by days of the week. During the weekdays (Mon-Fri) a larger sum of bike trips occured between the hours of 7 AM - 9 AM as well as 5 PM - 7 PM. Interestingly - Thursday during these peak times show the largest quantity of trips overall. During the weekends (Sat and Sun) the number of trips is spread out throughout midday (10 AM - 7 PM).
+
 ### Trips by Gender (Weekday per Hour)
+This heatmap splits up the previous visualization by gender. The same trends described above are seen in each gender panel. There are noticeable differences in the quantity of trips between genders however; males show the largest quantity of trips during peak hours, followed by females, and then the unknown gender group. This is consistent with the pattern seen by the bike checkout times by gender.
 
 ### User Trips by Gender by Weekday
+This heatmap splits up the trip quantities by weekday in a similar fashion to the previous two visualizations but further splits this data up by usertype (customer vs subscriber) instead of by hour. This provides some insight into the differences between customers and subscribers. It appears that the majority of trips are made by male subscribers, followed by female subscribers, unknown customers, male customers, and female customers. There does not appear to be any or much data involving subscribers of the unknown gender. This might indicate that users who do not subscribe to the service are less likely to report a gender, while subscribers do. Overall most trips are made by subscribers rather than customers.
 
 ### August Peak Hours
 
