@@ -23,7 +23,7 @@ This next visualization depicts the number of Citibike trips that happened at ea
 ![03_trips_by_weekday_per_hour](https://user-images.githubusercontent.com/107309793/190936135-a8db2cd8-5e87-46c3-8f27-6a3ded524256.png)
 
 ### Trips by Gender (Weekday per Hour)
-This heatmap splits up the previous visualization by gender. The same trends described above are seen in each gender panel. There are noticeable differences in the quantity of trips between genders however; males show the largest quantity of trips during peak hours, followed by females, and then the unknown gender group. This is consistent with the pattern seen by the bike checkout times by gender.
+This heatmap splits up the previous visualization by gender. The same trends described above are seen in each gender panel. There are noticeable differences in the quantity of trips between genders however; males show the largest quantity of trips during peak hours, followed by females, and then the unknown gender group (not depicted in this screenshot). This is consistent with the pattern seen by the bike checkout times by gender.
 ![04_trips_by_gender](https://user-images.githubusercontent.com/107309793/190936139-29020159-a040-4ccd-a525-39648d7ed47d.png)
 
 ### User Trips by Gender by Weekday
@@ -46,14 +46,14 @@ This map shows the stopping locations of all the Citibike trips. The regions tha
 
 ### Conclusions
 Overall the following conclusions can be made about the August 2019 NYC Citibike data:
-1) Most bikes are used for a total of 5 minutes and very few are used more than 45 minutes.
-2) Males make up the largest population of subscribers and customers who use the NYC Citibike service.
-3) The majority of trips occur between 8 AM - 9 AM and 5 PM - 6 PM on weekdays
-4) Bikes are utilized most prevalently in the Upper East Side and Upper West Side regions of NYC.
+1) Most bikes are used for a total of **5 minutes** and very few are used more than **45 minutes**.
+2) **Males** make up the largest population of subscribers and customers who use the NYC Citibike service.
+3) The majority of trips occur between **8 AM - 9 AM** and **5 PM - 6 PM** on weekdays.
+4) Bikes are utilized most prevalently in the **Upper East Side** and **Upper West Side** regions of NYC.
 
 ### Suggestions for Future Analysis
 This current summary provides a good picture of the usertypes and genders that use the NYC Citibike service, what hours/days of the week, and in what locations.
 
-1) Two columns in the dataset that were unutilized were Start Station ID and End Station ID. These IDs which relate to the Station Name columns might be helpful for better understanding user traffic. It might be useful to target which bikes IDs are utilized the most and at which stations to better understand the paths that they take. Understanding which bikes are utilized the most at which stations could make targeted maintenance more efficient.
-2) It might be worth looking into the male subscriber subset of data (repeating most of the analyses shown above) to better understand why this population of users utilizes the NYC Citibike service the most. What regions of NYC do they travel in? What do their trip durations look like? This could potentially be extrapolated into a marketing strategy to attract users of different regions/genders to utilize the service.
-3) I think comparing this Citibike dataset to vehicle traffic data in NYC and a infrastructure dataset could be interesting. There might be a link between vehicle traffic and even infrastructure which affects which bikes are used the most and in what regions.
+1) Two columns in the dataset that were unutilized were **Start Station ID** and **End Station ID**. These IDs which relate to the Station Name columns might be helpful for better understanding user traffic. It might be useful to target which bikes IDs are utilized the most and at which stations to better understand the paths that they take. Understanding which bikes are utilized the most at which stations could make targeted maintenance more efficient.
+2) It might be worth looking into the **male subscriber** subset of data (repeating most of the analyses shown above) to better understand why this population of users utilizes the NYC Citibike service the most. What regions of NYC do they travel in? What do their trip durations look like? This could potentially be extrapolated into a marketing strategy to attract users of different regions/genders to utilize the service.
+3) I think comparing this Citibike dataset to **vehicle traffic** data in NYC and an **infrastructure** dataset could be interesting. There might be a link between vehicle traffic and even infrastructure which affects which bikes are used the most and in what regions.
